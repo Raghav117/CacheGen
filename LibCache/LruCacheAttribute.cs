@@ -11,9 +11,9 @@ namespace LibCache
     public class LruCacheAttribute:Attribute
     {
         public int MaxSize { get; set; }
-        public LruCacheAttribute(int maxsize=10000)
+        public LruCacheAttribute(int msize=10000)
         {
-            MaxSize = maxsize;
+            MaxSize = msize;
         }
     }
 }
